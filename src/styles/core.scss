@@ -10,7 +10,7 @@
 
   html,
   body {
-    margin: 0;
+    margin: $margin-0-spacing;
     padding: 0;
     height: 100%;
   }
@@ -20,4 +20,16 @@
   *:after {
     box-sizing: inherit;
   }
+  /* Header Style */
+  .navbar-header {
+    .navbar-brand {
+      padding: 10px;
+    }
+  }
+
+  .navbar-custom {
+    color: $primary-font-color;
+    background-color: $primary-color;
+  }
+  /* /Header Styles */
 }
