@@ -10,6 +10,12 @@ export const Header = () => (
           <img alt='Brand' src='editor_logo.png' />
         </IndexLink>
       </div>
+      <ul className='nav navbar-nav navbar-left'>
+        <li><a href=''>Undo</a></li>
+        <li><a href=''>Redo</a></li>
+        <li><a href=''>Preview</a></li>
+        <li><a href=''>Present</a></li>
+      </ul>
       <ul className='nav navbar-nav navbar-right'>
         <li>
           <IndexLink to='/' activeClassName={classes.activeRoute}>
